@@ -1,6 +1,3 @@
-# Song-Quiz-Game
-Python code for a song quiz game
-
 # Song Quiz
 
 A simple Python program for a song quiz game.

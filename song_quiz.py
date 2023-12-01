@@ -6,7 +6,7 @@ class SongQuiz:
         self.score = 0
 
     def start_quiz(self):
-        print("Welcome to the Song Quiz!")
+        print("Welcome to the Song Quiz!!")
 
         while self.songs:
             current_song = random.choice(self.songs)

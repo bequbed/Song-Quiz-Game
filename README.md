@@ -1,7 +1,3 @@
-Certainly! Here's an updated README file reflecting the changes in the enhanced SongQuiz code:
-
----
-
 # SongQuiz
 
 An interactive Python program for a song quiz game with added features.

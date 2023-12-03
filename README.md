@@ -1,8 +1,17 @@
-Stay Tuned: Christmas Themed Quiz coming soon
+Certainly! Here's an updated README file reflecting the changes in the enhanced SongQuiz code:
 
-# Song Quiz
+---
 
-A simple Python program for a song quiz game.
+# SongQuiz
+
+An interactive Python program for a song quiz game with added features.
+
+## Features
+
+1. **Timer for Each Question:** Users must answer each question within a specified time to earn points.
+2. **Difficulty Levels:** Each song has an assigned difficulty level, influencing the point values.
+3. **High Score Tracking:** Keep track of the user's high score across multiple quizzes.
+4. **Play Again Option:** Users can choose to play again or exit after each round.
 
 ## How to Use
 
@@ -10,26 +19,62 @@ A simple Python program for a song quiz game.
 
    ```bash
    git clone https://github.com/your-username/song-quiz.git
+   ```
 
-cd song-quiz
+2. Navigate to the project directory:
 
-python song_quiz.py
+   ```bash
+   cd song-quiz
+   ```
 
+3. Run the song quiz:
 
-git checkout -b feature-name
+   ```bash
+   python song_quiz.py
+   ```
 
-git add .
-git commit -m "Add your feature or fix"
+4. Follow the on-screen instructions to guess the song titles and enjoy the enhanced song quiz experience!
 
+## Customization
 
-git push origin feature-name
+You can customize the difficulty levels and song list by modifying the `song_difficulty` dictionary in the code.
 
+```python
+song_difficulty = {"Song A": 3, "Song B": 2, "Song C": 1, "Song D": 3, "Song E": 2}
+```
 
+Feel free to adjust the difficulty levels and add more songs based on your preferences.
 
-Customize the song list and update the README as needed. When users run the program, it will randomly select songs from the list, play them, and prompt the user to guess the song title. The README provides instructions on how to use the program and contribute to the project.
+## Contributing
 
+If you'd like to contribute to the project, follow these steps:
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+1. Fork the repository.
+2. Create a new branch for your feature or improvement:
 
+   ```bash
+   git checkout -b feature-name
+   ```
 
+3. Make your changes and commit them:
+
+   ```bash
+   git add .
+   git commit -m "Add your feature or improvement"
+   ```
+
+4. Push the changes to your fork:
+
+   ```bash
+   git push origin feature-name
+   ```
+
+5. Create a pull request on GitHub.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+Enjoy the enhanced SongQuiz experience! If you have any suggestions or find issues, feel free to contribute or create an issue.
+
+---

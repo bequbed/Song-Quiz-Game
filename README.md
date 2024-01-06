@@ -1,3 +1,4 @@
+UPDATE: Stay Tuned for additional Quiz which will be added soon...
 # SongQuiz
 
 An interactive Python program for a song quiz game with added features.
